@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@media (max-width: 1900px) {
+  .aboutus {
+    margin-left: 400px !important;
+    margin-right: 100px !important;
+  }
+}
+@media (max-width: 1500px) {
+  .aboutus {
+    margin-left: 250px !important;
+    margin-right: 400px !important;
+  }
+}
+@media (max-width: 1352px) {
+  .aboutus {
+    margin-left: 150px !important;
+    margin-right: 400px !important;
+  }
+}
+@media (max-width: 1152px) {
+  .aboutus {
+    margin-left: 0px !important;
+  }
+  .aboutus__title {
+    margin-right: 80px !important;
+    font-size: 30px !important;
+  }
+  .aboutus__text {
+    margin-right: 90px !important;
+    margin-left: -80px;
+    padding-right: 0px !important;
+  }
+}
+.aboutus {
+  max-width: 950px;
+  width: 100%;
+  opacity: 0;
+}
+.aboutus__title {
+  padding-left: 80px;
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52.66px;
+  text-align: center;
+}
+.aboutus__text {
+  padding-left: 160px;
+  padding-right: 50px;
+  color: #999999;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.36px;
+  text-align: center;
+}
+.aboutus-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}
+
+.creating {
+  margin-top: 70px;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.creating__svg {
+  margin-bottom: 100px;
+  margin-right: 17px;
+}
+
+.creating__text--h3 {
+  color: #000000;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+}
+.creating__text--p {
+  max-width: 260px;
+  width: 100%;
+  color: #999999;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.19px;
+  text-align: left;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn2 {
+  width: 200px;
+  height: 45px;
+  color: white;
+  background: #4985FF;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+}
+.btn2:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
