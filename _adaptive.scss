@@ -1,3 +1,4 @@
+
 @media (max-width: 3790px) {
     .aboutus{    
         margin-left: 1250px !important;
@@ -36,6 +37,9 @@
     .aboutus{    
         margin-left: 350px !important;
     margin-right: 100px !important;
+    &__title{
+        font-size: 45px !important;
+    }
 }
 
 }
@@ -85,6 +89,7 @@
  }
 @media (max-width: 640px) {
     .aboutus{    
+     
         margin-left: 0px;
         &__title{
            margin-left: 40px !important;
@@ -98,9 +103,30 @@
 }
     .creating{
         margin-top: 10px  !important;
+        display: block !important;
+        margin-left: 150px !important;
     }
     .button2{
      margin-top: 20px;
     }
 }
+
+
+@media (max-width: 640px) {
+    
+    .creating{
+        margin-top: 10px  !important;
+        display: block !important;
+        margin-left: 100px !important;
+        &__svg{
+            margin-bottom: 10px !important;
+            margin-top: 20px !important ;
+        }
+    }
+
+    .button2{
+        margin-top: 50px !important;
+       }
+}
+
 
