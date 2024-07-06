@@ -4,86 +4,17 @@
   padding: 0;
 }
 
-@media (max-width: 3790px) {
-  .aboutus {
-    margin-left: 1250px !important;
-  }
-  .aboutus__title {
-    font-size: 50px !important;
-  }
-}
-@media (max-width: 3176px) {
-  .aboutus {
-    margin-left: 700px !important;
-  }
-}
-@media (max-width: 2808px) {
-  .aboutus {
-    margin-left: 550px !important;
-  }
-}
-@media (max-width: 2204px) {
-  .aboutus {
-    margin-left: 400px !important;
-  }
-}
-@media (max-width: 1900px) {
-  .aboutus {
-    margin-left: 350px !important;
-    margin-right: 100px !important;
-  }
-  .aboutus__title {
-    font-size: 45px !important;
-  }
-}
-@media (max-width: 1550px) {
-  .aboutus {
-    margin-left: 250px !important;
-    margin-right: 400px !important;
-  }
-}
-@media (max-width: 1352px) {
-  .aboutus {
-    margin-left: 50px !important;
-    margin-right: 400px !important;
-  }
-}
-@media (max-width: 1152px) {
-  .aboutus {
-    margin-left: 0px !important;
-  }
-  .aboutus__title {
-    margin-left: 50px !important;
-    font-size: 30px !important;
-  }
-  .aboutus__text {
-    margin-right: 90px !important;
-    margin-left: 80px;
-    padding-right: 0px !important;
-  }
-}
-@media (max-width: 1152px) {
-  .aboutus__text {
-    margin-bottom: -50px !important;
+@media (max-width: 768px) {
+  .creating {
+    flex-direction: column;
   }
 }
 @media (max-width: 640px) {
-  .aboutus {
-    margin-left: 0px;
-  }
   .aboutus__title {
-    margin-left: 40px !important;
     font-size: 30px !important;
-  }
-  .aboutus__text {
-    margin-left: 100px;
-    padding-right: 0px !important;
-    margin-bottom: 20px !important;
   }
   .creating {
     margin-top: 10px !important;
-    display: block !important;
-    margin-left: 150px !important;
   }
   .button2 {
     margin-top: 20px;
@@ -92,8 +23,6 @@
 @media (max-width: 640px) {
   .creating {
     margin-top: 10px !important;
-    display: block !important;
-    margin-left: 215px !important;
   }
   .creating__svg {
     margin-bottom: 10px !important;
@@ -106,8 +35,6 @@
 @media (max-width: 450px) {
   .creating {
     margin-top: 10px !important;
-    display: block !important;
-    margin-left: 115px !important;
   }
   .creating__svg {
     margin-bottom: 10px !important;
@@ -121,11 +48,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
 }
 .aboutus__title {
   margin-top: 20px;
   color: #323232;
   font-family: Montserrat;
+  width: 739px;
   font-size: 30px;
   font-weight: 700;
   line-height: 52.66px;
@@ -140,27 +69,32 @@
   font-weight: 400;
   line-height: 25.36px;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .aboutus-show {
   opacity: 1;
   transition: all 1.5s;
   transform: translateY(0%);
 }
-
-.creating {
+.aboutus__container {
   margin-top: 60px;
   max-width: 1400px;
   width: 100%;
   display: flex;
   align-items: center;
 }
-.creating__svg {
+.aboutus__container--content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutus__container--content--svg {
   margin-bottom: 80px;
   margin-right: 17px;
   margin-left: 20px;
 }
-
-.creating__text--h3 {
+.aboutus__container--content--text--h3 {
   color: #000000;
   font-family: Montserrat;
   font-size: 18px;
@@ -168,7 +102,7 @@
   line-height: 21.94px;
   text-align: left;
 }
-.creating__text--p {
+.aboutus__container--content--text--p {
   margin-top: 10px;
   max-width: 240px;
   width: 100%;
@@ -179,13 +113,11 @@
   line-height: 22.19px;
   text-align: left;
 }
-
-.button2 {
+.aboutus .button2 {
   display: flex;
   justify-content: center;
 }
-
-.btn2 {
+.aboutus .button2 .btn2 {
   width: 200px;
   height: 45px;
   color: white;
@@ -200,7 +132,7 @@
   line-height: 19.5px;
   text-align: center;
 }
-.btn2:hover {
+.aboutus .button2 .btn2:hover {
   background-color: #0056b3;
   transform: scale(1.1);
 }
